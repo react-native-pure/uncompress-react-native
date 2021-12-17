@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.dependency "React-Core"
   s.dependency "SSZipArchive"
-  s.dependency "UnrarKit"
+  s.dependency "UnrarKit", '~> 2.10-beta5'
 
   s.ios.deployment_target = '10.0'
 
